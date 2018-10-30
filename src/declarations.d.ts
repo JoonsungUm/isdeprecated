@@ -1,1 +1,4 @@
-declare const graphql: (query: TemplateStringsArray) => void
+declare module '*.svg' {
+  const svg: any
+  export = svg
+}
